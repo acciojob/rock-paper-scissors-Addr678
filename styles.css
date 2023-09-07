@@ -1,2 +1,41 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#game-results {
+  margin-top: 20px;
+}
+
+#choices {
+  margin-top: 20px;
+}
+
+button[data-ns-test="rock"] {
+  background-color: #ff5733;
+}
+
+button[data-ns-test="paper"] {
+  background-color: #33ff57;
+}
+
+button[data-ns-test="scissors"] {
+  background-color: #5733ff;
+}

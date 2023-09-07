@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <h1>Rock Paper Scissors Game</h1>
+  <label for="game-number" data-ns-test="game-number">Number of Turns:</label>
+  <input type="number" id="game-number" data-ns-test="game-number">
+  <button id="play-game" data-ns-test="play-game">Play Game</button>
+  <div id="game-results">
+    <p data-ns-test="rounds-left">Rounds Left: 0</p>
+    <p data-ns-test="user-points">User Points: 0</p>
+    <p data-ns-test="computer-points">Computer Points: 0</p>
+    <p data-ns-test="round-result">Round Result: </p>
+    <p data-ns-test="computer-choose">Computer Chooses: </p>
+    <p data-ns-test="game-result">Game Result: </p>
+  </div>
+  <div id="choices">
+    <button data-ns-test="rock">Rock</button>
+    <button data-ns-test="paper">Paper</button>
+    <button data-ns-test="scissors">Scissors</button>
+  </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
